@@ -12,6 +12,35 @@ body {
     background-color: blue;
     border: 5px solid black;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr 1fr 2fr;
+}
+
+.search-icon {
+    height: 50px;
+    width: auto;
+}
+
+.account-icon {
+    height: 50px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr 1fr 1fr;
+}
+
+.header-account-icon {
+    height: 80px;
+    width: auto;
+    border-radius: 20px;
 }
 
 .sidebar {
