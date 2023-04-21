@@ -10,39 +10,47 @@
   <body>
     <section class="header">
       <div class="header-top">
-        <label for="search">
+        <div class="search-div">
+          <label for="search">
+            <img
+              class="search-icon"
+              src="./images/magnify.svg"
+              alt="search-icon"
+            />
+          </label>
+          <input type="text" name="search" id="search" />
+        </div>
+        <div class="header-top-right">
           <img
-            class="search-icon"
-            src="./images/magnify.svg"
-            alt="search-icon"
+            class="notification-icon"
+            src="./images/bell-outline.svg"
+            alt="notificaiton-icon"
           />
-        </label>
-        <input type="text" name="search" id="search" />
-        <img
-          class="notification-icon"
-          src="./images/bell-outline.svg"
-          alt="notificaiton-icon"
-        />
-        <img
-          class="account-icon"
-          src="./images/account-logo-koala.jpg"
-          alt="account logo - a koala"
-        />
-        <p class="header-name">Morgan Oakley</p>
+          <img
+            class="account-icon"
+            src="./images/account-logo-koala.jpg"
+            alt="account logo - a koala"
+          />
+          <p class="header-name">Morgan Oakley</p>
+        </div>
       </div>
       <div class="header-bottom">
-        <img
-          class="header-account-icon"
-          src="./images/account-logo-koala.jpg"
-          alt="account logo - a koala"
-        />
-        <div clas="account-banner">
-        <p class="greeting">Hi there,</p>
-        <p class="greeting-name">Morgan Oakley (@morgan)</p>
+        <div class="account-div">
+          <img
+            class="header-account-icon"
+            src="./images/account-logo-koala.jpg"
+            alt="account logo - a koala"
+          />
+          <div class="account-banner">
+            <p class="greeting">Hi there,</p>
+            <p class="greeting-name">Morgan Oakley (@morgan)</p>
+          </div>
         </div>
-        <p class="button">New</p>
-        <p class="button">Upload</p>
-        <p class="button">Share</p>
+        <div class="header-buttons">
+          <p class="button">New</p>
+          <p class="button">Upload</p>
+          <p class="button">Share</p>
+        </div>
       </div>
     </section>
     <section class="sidebar">
@@ -117,49 +125,51 @@
     </section>
     <section class="main-content">
       <section class="projects">
-        <h2>Your Projects</h2>
-        <div class="project-card">
-          <h2>Super Cool Project</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
-            dolore.
-          </p>
-        </div>
-        <div class="project-card">
-          <h2>Less Cool Project</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
-            dolore.
-          </p>
-        </div>
-        <div class="project-card">
-          <h2>Impossible App</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
-            dolore.
-          </p>
-        </div>
-        <div class="project-card">
-          <h2>Easy Peasy App</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
-            dolore.
-          </p>
-        </div>
-        <div class="project-card">
-          <h2>Ad Blocker</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
-            dolore.
-          </p>
-        </div>
-        <div class="project-card">
-          <h2>Money Maker</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
-            dolore.
-          </p>
-        </div>
+        <h2>Your projects</h2>
+        <section class="project-cards">
+          <div class="project-card">
+            <h2>Super Cool Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+              dolore.
+            </p>
+          </div>
+          <div class="project-card">
+            <h2>Less Cool Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+              dolore.
+            </p>
+          </div>
+          <div class="project-card">
+            <h2>Impossible App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+              dolore.
+            </p>
+          </div>
+          <div class="project-card">
+            <h2>Easy Peasy App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+              dolore.
+            </p>
+          </div>
+          <div class="project-card">
+            <h2>Ad Blocker</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+              dolore.
+            </p>
+          </div>
+          <div class="project-card">
+            <h2>Money Maker</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+              dolore.
+            </p>
+          </div>
+        </section>
       </section>
       <section class="announcements">
         <h1>Announcements</h1>
